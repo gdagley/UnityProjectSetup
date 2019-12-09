@@ -34,8 +34,16 @@ The are multiple ways you can use this project:
 * Use the commands in the `create_project_structure.sh` file
 * Copy the `create_project_structure.sh` into your `Assets` folder and run it with 
 
-    ``` text
+    ``` shell
     sh create_project_structure.sh
+    ```
+* 
+
+    ``` shell
+    cd <path-to-project>/Assets
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/sustainableunity/UnityProjectSetup/master/create_project_structure.sh)"
+
+    sh -c "$(wget https://raw.githubusercontent.com/sustainableunity/UnityProjectSetup/master/create_project_structure.sh -O -)"    
     ```
 
 ###  Note
